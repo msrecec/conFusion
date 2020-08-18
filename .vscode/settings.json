@@ -5,6 +5,7 @@
     "emailid",
     "firstname",
     "lastname",
-    "telnum"
+    "telnum",
+    "uthappizza"
   ]
 }
