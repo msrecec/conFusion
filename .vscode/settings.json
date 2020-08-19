@@ -5,6 +5,7 @@
     "emailid",
     "firstname",
     "lastname",
+    "optradio",
     "telnum",
     "uthappizza"
   ]

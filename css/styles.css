@@ -37,3 +37,8 @@ body {
 .navbar-dark {
   background-color: #512da8;
 }
+
+#link-btn-table {
+  text-decoration: none;
+  color: inherit;
+}
