@@ -6,9 +6,24 @@ $background-pale: #d1c4e9;
 //Height variables
 $carousel-item-height: 300px;
 
+//mixins
+
 @mixin zero-margin($pad-up-dn, $pad-left-right) {
   margin: 0px auto;
   padding: $pad-up-dn $pad-left-right;
+}
+
+@mixin header-body-color($header-color, $body-color) {
+  .modal-header {
+    background-color: $header-color;
+    color: floralwhite;
+    .close {
+      color: floralwhite;
+    }
+  }
+  .modal-body {
+    background-color: $body-color;
+  }
 }
 
 .row-header {
@@ -72,4 +87,14 @@ body {
   right: 0px;
   position: absolute;
   bottom: 0px;
+}
+
+//added mixins for header and body color
+
+#reservationModal {
+  @include header-body-color($background-dark, $background-pale);
+}
+
+#loginModal {
+  @include header-body-color($background-dark, $background-pale);
 }
