@@ -26,6 +26,10 @@ $carousel-item-height: 300px;
   }
 }
 
+@mixin pointer-cursor() {
+  cursor: pointer;
+}
+
 .row-header {
   @include zero-margin(0px, 0px);
 }
@@ -56,6 +60,11 @@ address {
 body {
   padding: 50px 0px 0px 0px;
   z-index: 0;
+}
+.navbar {
+  .navbar-text {
+    @include pointer-cursor();
+  }
 }
 
 .navbar-dark {

@@ -34,6 +34,10 @@ body {
   z-index: 0;
 }
 
+.navbar .navbar-text {
+  cursor: pointer;
+}
+
 .navbar-dark {
   background-color: #512da8;
 }
