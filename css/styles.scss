@@ -2,6 +2,8 @@ $lt-gray: #ddd;
 $background-dark: #512da8;
 $background-light: #9575cd;
 $background-pale: #d1c4e9;
+$color-card-blue: #007bff;
+$color-dark: #0f0f0f;
 
 //Height variables
 $carousel-item-height: 300px;
@@ -107,4 +109,19 @@ body {
 
 #loginModal {
   @include header-body-color($background-dark, $background-pale);
+}
+
+
+//accordion header 
+#accordion {
+  .card{
+    .card-header {
+      h3 {
+        a {
+          color: $color-dark;
+          cursor: pointer;
+        }
+      }
+    }
+  }
 }

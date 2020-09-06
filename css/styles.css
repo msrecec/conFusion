@@ -74,4 +74,6 @@ body {
 #loginModal .modal-body {
   background-color: #d1c4e9; }
 
-/*# sourceMappingURL=styles.css.map */
+#accordion .card .card-header h3 a {
+  color: #0f0f0f;
+  cursor: pointer; }
